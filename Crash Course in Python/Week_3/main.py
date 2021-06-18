@@ -1,10 +1,11 @@
 # While loops
-'''
+
 x = 0
 while x < 5:
     print("Not there yet, x = " + str(x))
     x = x + 1
 print("x = " + str(x))
+print("\n")
 
 
 def attempts(n):
@@ -16,6 +17,7 @@ def attempts(n):
 
 
 attempts(5)
+print("\n")
 
 
 var = 1
@@ -24,12 +26,14 @@ while var < 10:
     sum += var
     var += 1
 print("Sum:" + str(sum) + ", " + "Var:" + str(var))
+print("\n")
 
 
 x = 100
 while x != 0 and x % 2 == 0:
     x = x / 2
 print(x)
+print("\n")
 
 
 def print_range(start, end):
@@ -41,12 +45,11 @@ def print_range(start, end):
 
 
 print_range(1, 5)  # Should print 1 2 3 4 5 (each number on its own line)
+print("\n")
 
-
-'''
 
 # For loops
-'''
+
 for x in range(5):
     print(x)
 print("\n")
@@ -121,7 +124,7 @@ def greet_friends(f):
 
 
 f = ['Rob', 'Ian', 'Sid', 'Andrew']
-greet_friends("Bailey")
+greet_friends("Ashley")
 print("\n")
 
 
@@ -136,11 +139,8 @@ for n in range(0, 10):
     print(n, factorial(n+1))
 print("\n")
 
-'''
 
 # Recursion
-'''
-
 
 def factorial(n):
     if n < 2:
@@ -150,6 +150,7 @@ def factorial(n):
 
 print(factorial(4))
 # print(factorial(998))
+print("\n")
 
 
 def sum_positive_numbers(n):
@@ -160,6 +161,7 @@ def sum_positive_numbers(n):
 
 print(sum_positive_numbers(3))  # Should be 6
 print(sum_positive_numbers(5))  # Should be 15
+print("\n")
 
 
 # def recursive_function(parameters):
@@ -168,10 +170,8 @@ print(sum_positive_numbers(5))  # Should be 15
 #     recursive_function(modified_parameters)
 
 
-'''
-
 # Exam
-'''
+
 def digits(n):
     count = 0
     if n == 0:
@@ -186,6 +186,7 @@ print(digits(25))  # Should print 2
 print(digits(144))  # Should print 3
 print(digits(1000))  # Should print 4
 print(digits(0))  # Should print 1
+print("\n")
 
 
 def multiplication_table(start, stop):
@@ -196,6 +197,3 @@ def multiplication_table(start, stop):
 
 
 multiplication_table(1, 3)
-# Should print the multiplication table shown above
-
-'''
